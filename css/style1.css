@@ -17,3 +17,10 @@ nav ul {
     gap: 64px;            /* create a 64px gap between items */
     list-style-type: none; /* get rid of the bullet points */
 }
+
+.vertical ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style-type: none;
+}

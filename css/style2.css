@@ -1,0 +1,14 @@
+.flex1 {
+    display: flex;          /* turns on flex */
+    flex-direction: row;    /* stack the items side by side */
+    justify-content: space-between; /* spreads the flex items apart */
+    align-items: center;    /* centers items vertically */
+}
+
+.flex2, .flex3 {
+    display: flex;          /* turns on flex */
+    flex-direction: row;    /* stack the items side by side */
+    justify-content: space-between; 
+    align-items: center;    
+    gap: 32px;              /* set a 32px gap between the items */
+}

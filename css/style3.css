@@ -21,3 +21,19 @@ header, footer {
     display: flex;
     flex-direction: row;
 }
+
+
+.color1 { background-color: #a0c4ff; } 
+.color2 { background-color: #bdb2ff; } 
+.color3 { background-color: #ffc6ff; } 
+.color4 { background-color: #caffbf; }
+
+header, footer { background-color: #a0c4ff; }
+
+nav, aside {
+    flex: 1;
+}
+
+main {
+    flex: 3;
+}

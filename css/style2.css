@@ -12,3 +12,14 @@
     align-items: center;    
     gap: 32px;              /* set a 32px gap between the items */
 }
+
+.rating-container {
+    display: flex; /* turns on flex */
+    flex-direction: row; /*stack the items side by side */
+    align-items: center; /* centers items on the secondary axis (vertical here) */
+    gap: 12px; /* set a 12px gap between the items */
+}
+
+.rating{
+    margin-left: 36px;
+}
